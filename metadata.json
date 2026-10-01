@@ -2,5 +2,7 @@
   "name": "UnblockZone - Casual & Arcade Unblocked Games",
   "description": "A fast, lightweight unblocked arcade game hub with classic web games, custom JSON game registry, panic cloaking, and zero distractions.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
