@@ -24,7 +24,7 @@ export default function App() {
   // Game Library State (Persisted in localStorage with initial games.json fallback)
   const [games, setGames] = useState(() => {
     try {
-      const saved = localStorage.getItem('unblockzone_games_v2');
+      const saved = localStorage.getItem('unblockzone_games_v3');
       if (saved) {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed) && parsed.length > 0) return parsed;
@@ -59,7 +59,7 @@ export default function App() {
   const updateGamesList = useCallback((newGames) => {
     setGames(newGames);
     try {
-      localStorage.setItem('unblockzone_games_v2', JSON.stringify(newGames));
+      localStorage.setItem('unblockzone_games_v3', JSON.stringify(newGames));
     } catch {
       // ignore
     }
@@ -67,7 +67,7 @@ export default function App() {
 
   const resetToDefaultGames = useCallback(() => {
     setGames(initialGames);
-    localStorage.removeItem('unblockzone_games_v2');
+    localStorage.removeItem('unblockzone_games_v3');
   }, []);
 
   const handleAddGame = useCallback(

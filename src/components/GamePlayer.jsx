@@ -21,6 +21,12 @@ import { MinesweeperGame } from '../games/MinesweeperGame.jsx';
 import { TetroBlocksGame } from '../games/TetroBlocksGame.jsx';
 import { ConnectFourGame } from '../games/ConnectFourGame.jsx';
 import { RobloxGame } from '../games/RobloxGame.jsx';
+import { PacmanGame } from '../games/PacmanGame.jsx';
+import { AsteroidsGame } from '../games/AsteroidsGame.jsx';
+import { RetroRacerGame } from '../games/RetroRacerGame.jsx';
+import { CyberWhackGame } from '../games/CyberWhackGame.jsx';
+import { MemoryMatchGame } from '../games/MemoryMatchGame.jsx';
+import { GeometryJumpGame } from '../games/GeometryJumpGame.jsx';
 import { IframeSandboxGame } from '../games/IframeSandboxGame.jsx';
 
 export const GamePlayer = ({
@@ -82,6 +88,18 @@ export const GamePlayer = ({
         return <TetroBlocksGame key={resetKey} soundEnabled={soundEnabled} />;
       case 'connect-four':
         return <ConnectFourGame key={resetKey} soundEnabled={soundEnabled} />;
+      case 'pacman':
+        return <PacmanGame key={resetKey} soundEnabled={soundEnabled} />;
+      case 'asteroids':
+        return <AsteroidsGame key={resetKey} soundEnabled={soundEnabled} />;
+      case 'retro-racer':
+        return <RetroRacerGame key={resetKey} soundEnabled={soundEnabled} />;
+      case 'cyber-whack':
+        return <CyberWhackGame key={resetKey} soundEnabled={soundEnabled} />;
+      case 'memory-match':
+        return <MemoryMatchGame key={resetKey} soundEnabled={soundEnabled} />;
+      case 'geometry-jump':
+        return <GeometryJumpGame key={resetKey} soundEnabled={soundEnabled} />;
       default:
         return (
           <IframeSandboxGame
