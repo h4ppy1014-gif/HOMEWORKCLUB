@@ -1,0 +1,211 @@
+[
+  {
+    "id": "roblox-unblocked",
+    "title": "Roblox Obby & Web Launcher",
+    "category": "Action",
+    "icon": "Box",
+    "color": "from-red-600 to-rose-700",
+    "badge": "HOT 🔥",
+    "description": "The ultimate unblocked Roblox experience: run through the challenging 3D Stud Obby obstacle course or launch web cloud gaming sessions.",
+    "instructions": "In Blox Obby: use A/D or Arrow keys to steer and Space/Up to jump across studded blocks and avoid red lava hazards. Or switch to Cloud Launcher to play web Roblox!",
+    "controls": [
+      { "key": "A / D or Left / Right", "label": "Run avatar" },
+      { "key": "Space / Up", "label": "Jump parkour" },
+      { "key": "R", "label": "Quick Respawn" }
+    ],
+    "rating": 5.0,
+    "playsCount": 98400,
+    "gameType": "built-in",
+    "engineId": "roblox"
+  },
+  {
+    "id": "snake-neon",
+    "title": "Neon Snake",
+    "category": "Arcade",
+    "icon": "Gamepad2",
+    "color": "from-emerald-500 to-teal-600",
+    "badge": "Classic",
+    "description": "Guide the glowing serpent, collect energy apples, and grow as long as possible without hitting walls or your own tail.",
+    "instructions": "Use Arrow keys or WASD to navigate. Eat the glowing orbs to gain length and points. Watch out for speed boosts as you score higher!",
+    "controls": [
+      { "key": "Arrow Keys / WASD", "label": "Steer snake" },
+      { "key": "Space / P", "label": "Pause / Resume" },
+      { "key": "R", "label": "Restart game" }
+    ],
+    "rating": 4.9,
+    "playsCount": 42500,
+    "gameType": "built-in",
+    "engineId": "snake"
+  },
+  {
+    "id": "puzzle-2048",
+    "title": "2048 Legend",
+    "category": "Puzzle",
+    "icon": "Grid3X3",
+    "color": "from-amber-500 to-orange-600",
+    "badge": "Popular",
+    "description": "Slide matching numbered tiles across the 4x4 grid. When two tiles with the same number touch, they merge into one!",
+    "instructions": "Slide in 4 directions to merge duplicate tiles. Plan ahead to build up to 1024, 2048, and beyond without filling the board.",
+    "controls": [
+      { "key": "Arrow Keys / WASD", "label": "Slide tiles" },
+      { "key": "U", "label": "Undo previous move" },
+      { "key": "R", "label": "Reset board" }
+    ],
+    "rating": 4.8,
+    "playsCount": 38900,
+    "gameType": "built-in",
+    "engineId": "2048"
+  },
+  {
+    "id": "tetro-blocks",
+    "title": "Tetro Blocks",
+    "category": "Retro",
+    "icon": "Boxes",
+    "color": "from-cyan-500 to-blue-600",
+    "badge": "Hot",
+    "description": "The quintessential block-stacking puzzle. Rotate and position geometric tetrominoes to clear full horizontal lines.",
+    "instructions": "Stack blocks cleanly. Clearing multiple lines at once earns massive bonus points. As level increases, blocks fall faster.",
+    "controls": [
+      { "key": "Left / Right", "label": "Move block" },
+      { "key": "Up / W", "label": "Rotate block" },
+      { "key": "Down / S", "label": "Soft drop" },
+      { "key": "Space", "label": "Hard drop" },
+      { "key": "C / Shift", "label": "Hold piece" }
+    ],
+    "rating": 4.9,
+    "playsCount": 51200,
+    "gameType": "built-in",
+    "engineId": "tetris"
+  },
+  {
+    "id": "space-defenders",
+    "title": "Space Defenders",
+    "category": "Action",
+    "icon": "Rocket",
+    "color": "from-indigo-500 to-violet-600",
+    "badge": "Arcade",
+    "description": "Defend the planet against waves of descending alien warships. Utilize planetary barricades and eliminate motherships.",
+    "instructions": "Move your cannon ship along the bottom defense line. Blast approaching alien ranks before they penetrate the surface perimeter.",
+    "controls": [
+      { "key": "A / D or Left / Right", "label": "Move fighter" },
+      { "key": "Space", "label": "Fire plasma cannon" },
+      { "key": "P", "label": "Pause game" }
+    ],
+    "rating": 4.7,
+    "playsCount": 29800,
+    "gameType": "built-in",
+    "engineId": "space-defenders"
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Retro Flap",
+    "category": "Arcade",
+    "icon": "Zap",
+    "color": "from-yellow-400 to-amber-500",
+    "badge": "Addictive",
+    "description": "Tap to flap wings and navigate through dangerous vertical pipe obstacles. Timing is everything!",
+    "instructions": "Each tap gives upward impulse against gravity. Squeeze through pipe gaps without colliding to collect medal tiers.",
+    "controls": [
+      { "key": "Space / Click / Tap", "label": "Flap wings" },
+      { "key": "R", "label": "Restart flight" }
+    ],
+    "rating": 4.6,
+    "playsCount": 47100,
+    "gameType": "built-in",
+    "engineId": "flappy-bird"
+  },
+  {
+    "id": "brick-breakout",
+    "title": "Neon Breakout",
+    "category": "Arcade",
+    "icon": "Layers",
+    "color": "from-rose-500 to-pink-600",
+    "badge": "Classic",
+    "description": "Smash your way through multi-layered brick formations using precise paddle angles, speed, and combo multipliers.",
+    "instructions": "Keep the energetic ball in play. Angle your paddle hits to reach hidden top layers and clear every brick on screen.",
+    "controls": [
+      { "key": "Mouse / Left / Right", "label": "Move paddle" },
+      { "key": "Space", "label": "Launch ball" },
+      { "key": "P", "label": "Pause" }
+    ],
+    "rating": 4.7,
+    "playsCount": 26400,
+    "gameType": "built-in",
+    "engineId": "breakout"
+  },
+  {
+    "id": "pong-classic",
+    "title": "Cyber Pong",
+    "category": "Sports",
+    "icon": "Trophy",
+    "color": "from-emerald-400 to-green-600",
+    "badge": "1v1 Duel",
+    "description": "The grandfather of video games reimagined with responsive paddle physics, 3 difficulty bots, and local 2-Player mode.",
+    "instructions": "Deflect the high-speed cyber orb past your opponent's defense line. First player to score 7 points wins the match.",
+    "controls": [
+      { "key": "W / S", "label": "Player 1 Up / Down" },
+      { "key": "Up / Down", "label": "Player 2 (in 2P mode)" },
+      { "key": "Space", "label": "Serve ball" }
+    ],
+    "rating": 4.5,
+    "playsCount": 21300,
+    "gameType": "built-in",
+    "engineId": "pong"
+  },
+  {
+    "id": "dino-runner",
+    "title": "T-Rex Horizon",
+    "category": "Action",
+    "icon": "Flame",
+    "color": "from-stone-400 to-stone-600",
+    "badge": "Endless",
+    "description": "Sprint endlessly across the prehistoric desert, vaulting over sharp cacti and ducking under swooping pterodactyls.",
+    "instructions": "Jump over desert hazards and duck under airborne predators. Speed continuously scales higher as day turns into night.",
+    "controls": [
+      { "key": "Space / Up", "label": "Jump over cacti" },
+      { "key": "Down", "label": "Duck under flyers" },
+      { "key": "R", "label": "Restart sprint" }
+    ],
+    "rating": 4.8,
+    "playsCount": 35200,
+    "gameType": "built-in",
+    "engineId": "dino-runner"
+  },
+  {
+    "id": "minesweeper-retro",
+    "title": "Minefield 95",
+    "category": "Puzzle",
+    "icon": "ShieldAlert",
+    "color": "from-slate-500 to-slate-700",
+    "badge": "Tactical",
+    "description": "Uncover hidden squares across the minefield using numerical clues to deduce where dangerous explosives lurk.",
+    "instructions": "Left-click to reveal a cell. Right-click (or hold) to plant a warning flag on suspected mines. Numbers reveal adjacent mine count.",
+    "controls": [
+      { "key": "Left Click", "label": "Reveal square" },
+      { "key": "Right Click / F", "label": "Flag mine" },
+      { "key": "R", "label": "New game" }
+    ],
+    "rating": 4.7,
+    "playsCount": 19400,
+    "gameType": "built-in",
+    "engineId": "minesweeper"
+  },
+  {
+    "id": "connect-four",
+    "title": "Connect Four",
+    "category": "Strategy",
+    "icon": "Disc",
+    "color": "from-blue-500 to-indigo-600",
+    "badge": "Strategy",
+    "description": "Drop colored discs into the vertical 7x6 grid. Connect 4 discs vertically, horizontally, or diagonally before your opponent does.",
+    "instructions": "Take turns dropping discs into any of the 7 columns. Play against a tactical AI bot or challenge a friend in local 2P mode.",
+    "controls": [
+      { "key": "Click Column / 1-7", "label": "Drop disc" },
+      { "key": "R", "label": "Reset board" }
+    ],
+    "rating": 4.6,
+    "playsCount": 18200,
+    "gameType": "built-in",
+    "engineId": "connect-four"
+  }
+]
